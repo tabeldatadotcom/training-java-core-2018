@@ -12,10 +12,10 @@ public class TipeDataTanggal{
         SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy HH:mm:ss");
         System.out.println("Tanggal yang sudha di format: "+ sdf.format(tanggal));   
 
-        LocalDate tanggalBaru = LocalDate.now();
+        LocalDate tanggalSekarang = LocalDate.now();
         System.out.println(
             "Tanggal sekarang adalah " + 
-            tanggalBaru
+            tanggalSekarang.getDayOfMonth()
         );
         LocalDate kemarin = LocalDate.of(2017, 10, 10);
         System.out.println(
