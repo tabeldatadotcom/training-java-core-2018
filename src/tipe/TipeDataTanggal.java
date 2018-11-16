@@ -15,7 +15,7 @@ public class TipeDataTanggal{
         LocalDate tanggalSekarang = LocalDate.now();
         System.out.println(
             "Tanggal sekarang adalah " + 
-            tanggalSekarang
+            tanggalSekarang.getDayOfMonth()
         );
         LocalDate kemarin = LocalDate.of(2017, 10, 10);
         System.out.println(
