@@ -19,7 +19,7 @@ public class SeleksiSwitch {
         case 4:
             System.out.println("A");
             break;
-        case 3:
+        case 36:
             System.out.println("B");
             // break;
         case 2:
