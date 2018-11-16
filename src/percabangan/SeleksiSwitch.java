@@ -14,12 +14,12 @@ public class SeleksiSwitch {
             System.out.println("Nilai tidak ada yang sama");
         }
 
-        int ip = 3;
+        int ip = 8;
         switch (ip) {
         case 4:
             System.out.println("A");
             break;
-        case 3:
+        case 36:
             System.out.println("B");
             break;
         case 2:
