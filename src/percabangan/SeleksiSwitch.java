@@ -21,10 +21,10 @@ public class SeleksiSwitch {
             break;
         case 3:
             System.out.println("B");
-            // break;
+            break;
         case 2:
             System.out.println("C");
-            // break;
+            break;
         case 1:
             System.out.println("D");
             break;
