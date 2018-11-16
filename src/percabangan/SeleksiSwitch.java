@@ -2,10 +2,10 @@ package percabangan;
 
 public class SeleksiSwitch {
     public static void main(String[] args) {
-        int bil = 20;
+        int bil = 50;
         switch (bil) {
-        case 10:
-            System.out.println("Nilai sama dengan 10");
+        case 50:
+            System.out.println("Nilai sama dengan 50");
             break;
         case 20:
             System.out.println("Nilai sama dengan 20");
